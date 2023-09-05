@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.prnt{
+    position: relative;
+    height: 400px;
+    width: 70%;
+    border: 1px solid #000;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.slider{
+    position: relative;
+    width: 500%;
+    height: 100%;
+    /* background-color:red; */
+    animation: slider 15s infinite linear alternate ;
+    
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    16%{
+        left: 0%;
+    }
+    21%{
+        left: -100%;
+    }
+    37%{
+        left: -100%;
+    }
+    42%{
+        left: -200%;
+    }
+    58%{
+        left: -200%;
+    }
+    63%{
+        left: -300%;
+    }
+    79%{
+        left: -300%;
+    }
+    84%{
+        left: -400%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+.pic{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: green;
+}
+.pic:nth-child(2){
+    background-color: blue;
+}
+.pic:nth-child(3){
+    background-color: yellow;
+}
+.pic:nth-child(4){
+    background-color: purple;
+}
+.pic:nth-child(5){
+    background-color: orange;
+}
